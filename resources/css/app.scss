@@ -1,0 +1,85 @@
+body {
+    background-color: #32668f;
+    font-family: 'Roboto', sans-serif;
+}
+
+// START: navbar
+nav .btn:focus {
+    box-shadow: unset !important;
+}
+
+nav .dropdown-toggle::after {
+    content: unset !important;
+}
+
+nav .dropdown-menu {
+    transform: translate(0px, 10px) !important;
+}
+
+nav #logo-img {
+    max-width: 200px;
+    width: 100%;
+}
+
+// END: navbar
+
+
+// START: button
+.btn-warning {
+    max-width: 366px;
+    width: 100%;
+}
+
+.btn-warning:hover {
+    color: #ffc107ff !important;
+    background-color: #fff !important;
+    border-color: #ffc107 !important;
+}
+
+// END: button
+
+// START: progress-icons
+.current {
+    color: #ffc107 !important;
+}
+
+.done {
+    color: #ffc107 !important;
+}
+
+// END: progress-icons
+
+// START: card
+.card-header {
+    background-color: #6B315D !important;
+}
+
+.card {
+    border: #32668f !important;
+}
+
+.card-text {
+    font-size: 12px !important;
+    margin-bottom: unset !important;
+}
+
+.card-title {
+    font-size: 16px !important;
+}
+
+// END: card
+
+// START: box drag
+.box {
+    cursor: move !important;
+    max-width: 350px;
+    width: 100%;
+}
+
+// END: box drag
+
+// icons
+.progress-_icons .fa-circle,
+.progress-_icons .fa-circle-dot {
+    font-size: 1.5rem;
+}
